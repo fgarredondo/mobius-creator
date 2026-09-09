@@ -35,3 +35,8 @@ El nombre y el logotipo del proyecto no se encuentran incluidos en las licencias
 ## Advertencia
 
 Las versiones experimentales no deben considerarse diseños terminados ni validados para producción. Antes de fabricar o modificar cualquier componente verifica la versión, la documentación y los problemas conocidos
+
+## Imagenes
+
+/images/renders/Estructura base.png
+
