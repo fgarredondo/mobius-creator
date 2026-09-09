@@ -1,3 +1,4 @@
+<img width="3000" height="4000" alt="detalle carro" src="https://github.com/user-attachments/assets/408f6fb5-aa8b-40f1-8f24-7fb7036809ea" />
 # Mobius Creator 
 
 Impresora 3D Delta reparable y adaptada a componentes disponibles Argentina. El Proyecto esta en fase de desarrollo y prototipado con publicacion abierta planificada.
@@ -32,6 +33,13 @@ La licencia definitiva sera informada antes de la publicacion de la primera vers
 Mobius Creator es una marca registrada en la republica Argentina.
 El nombre y el logotipo del proyecto no se encuentran incluidos en las licencias abiertas aplicables a los archivos de diseño, el software o la documentacion
 
+## Estado Actual
+
+Estructura Principal y torres diseñadas
+Carro Version Preliminar para validad movimiento
+Tensor Correas diseñado y probado
+Se esta diseñando el Effector a partir de unas rotulas IGUS y extrusor sherpa mini V3 + disipador Creality K1 + Volcano + CHT
+
 ## Advertencia
 
 Las versiones experimentales no deben considerarse diseños terminados ni validados para producción. Antes de fabricar o modificar cualquier componente verifica la versión, la documentación y los problemas conocidos
@@ -43,6 +51,8 @@ Las versiones experimentales no deben considerarse diseños terminados ni valida
 <img width="2048" height="1536" alt="Carro lado Correa" src="https://github.com/user-attachments/assets/a7359908-510b-41f0-9e3b-0b848627c15a" />
 
 <img width="3000" height="4000" alt="Soporte superior torre" src="https://github.com/user-attachments/assets/ba235d99-059a-4ee0-8339-9d9bb1cc3e29" />
+
+<img width="3000" height="4000" alt="Detalle Carro" src="https://github.com/user-attachments/assets/0ae5da21-a42a-4deb-bd17-aea6d9d68dd7" />
 
 
 
