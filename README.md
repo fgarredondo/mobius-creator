@@ -38,5 +38,12 @@ Las versiones experimentales no deben considerarse diseños terminados ni valida
 
 ## Imagenes
 
-![Estructura Base](/images/renders/Estructura base.png)
+<img width="3300" height="2550" alt="Estructura Principal" src="https://github.com/user-attachments/assets/8bc3c71f-5907-4190-829e-2219b956a86d" />
+
+<img width="2048" height="1536" alt="Carro lado Correa" src="https://github.com/user-attachments/assets/a7359908-510b-41f0-9e3b-0b848627c15a" />
+
+<img width="3000" height="4000" alt="Soporte superior torre" src="https://github.com/user-attachments/assets/ba235d99-059a-4ee0-8339-9d9bb1cc3e29" />
+
+
+
 
