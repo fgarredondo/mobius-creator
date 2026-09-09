@@ -38,5 +38,5 @@ Las versiones experimentales no deben considerarse diseños terminados ni valida
 
 ## Imagenes
 
-/images/renders/Estructura base.png
+!images/renders/Estructura%20base.png
 
