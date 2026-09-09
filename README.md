@@ -1,4 +1,3 @@
-<img width="3000" height="4000" alt="detalle carro" src="https://github.com/user-attachments/assets/408f6fb5-aa8b-40f1-8f24-7fb7036809ea" />
 # Mobius Creator 
 
 Impresora 3D Delta reparable y adaptada a componentes disponibles Argentina. El Proyecto esta en fase de desarrollo y prototipado con publicacion abierta planificada.
