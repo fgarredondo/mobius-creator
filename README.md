@@ -1,6 +1,6 @@
 # Mobius Creator 
 
-Impresora 3D Delta reparable y adaptada a componentes disponibles Argentina. El Proyecto esta en fase de desarrollo y prototipado con publicacion abierta planificada.
+Impresora 3D Delta reparable y adaptada a componentes disponibles en Argentina. El Proyecto esta en fase de desarrollo y prototipado con publicacion abierta planificada.
 
 El objetivo es crear una maquina de velocidad y tamaño de impresión considerables; que pueda ser construida, mantenida, modificada y reparada por sus usuarios, utilizando componentes standard y alternativas disponibles en el mercado local siempre que sea técnicamente posible.
 
@@ -34,10 +34,11 @@ El nombre y el logotipo del proyecto no se encuentran incluidos en las licencias
 
 ## Estado Actual
 
-Estructura Principal y torres diseñadas
-Carro Version Preliminar para validad movimiento
-Tensor Correas diseñado y probado
-Se esta diseñando el Effector a partir de unas rotulas IGUS y extrusor sherpa mini V3 + disipador Creality K1 + Volcano + CHT
+> Estructura Principal y Torres diseñadas para un área de impresión de 350 mm por un mínimo de 350 mm de altura.
+> Carro Version Preliminar para validar movimiento y guias.
+> Tensor de Correas diseñado y probado.
+> La electrónica de la primera versión será una placa BTT SKR Mini + BTT Pi corriendo klipper.
+> Se esta diseñando el Effector a partir de unas rotulas plasticas IGUS M6 y Extrusor sherpa mini V3 + Disipador Creality K1 + Barrel Titanio + Bloque Volcano + Pico CHT. De esta manera se prioriza bajo peso, poca altura del conjunto y reparabilidad sin sacrificar flujo de filamento. 
 
 ## Advertencia
 
