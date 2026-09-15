@@ -9,7 +9,7 @@
 
 ## Descripción
 
-Möbius Creator es un proyecto de impresora 3D delta de gran formato, diseñado con énfasis en la reparabilidad, la disponibilidad de repuestos y la posibilidad de adaptación por parte de sus usuarios.
+Mobius Creator es un proyecto de impresora 3D delta de gran formato, diseñado con énfasis en la reparabilidad, la disponibilidad de repuestos y la posibilidad de adaptación por parte de sus usuarios.
 
 El objetivo es desarrollar una máquina con un volumen y una velocidad de impresión considerables, que pueda ser construida, mantenida, modificada y reparada utilizando componentes estándar y alternativas disponibles en el mercado argentino, siempre que resulte técnicamente posible.
 
@@ -67,7 +67,7 @@ Las prestaciones de velocidad, aceleración, caudal, precisión y repetibilidad 
 
 ## Estado del proyecto
 
-Möbius Creator se encuentra en fase de desarrollo y prototipado.
+Mobius Creator se encuentra en fase de desarrollo y prototipado.
 
 Los archivos, dimensiones, componentes y soluciones mecánicas pueden cambiar durante esta etapa. Las versiones preparadas para fabricación serán identificadas explícitamente y estarán acompañadas por su documentación correspondiente.
 
@@ -78,8 +78,8 @@ Los archivos, dimensiones, componentes y soluciones mecánicas pueden cambiar du
 - [x] Diseño y prueba inicial del tensor de correas.
 - [x] Desarrollo de un carro preliminar para validar el movimiento y las guías.
 - [x] Selección preliminar de la electrónica.
-- [0] Fabricación de la estructura del primer prototipo.
-- [0] Diseño y fabricación del efector.
+- [ ] Fabricación de la estructura del primer prototipo (en proceso).
+- [ ] Diseño y fabricación del efector (en proceso).
 - [ ] Validación definitiva del carro.
 - [ ] Fabricación y medición de los brazos.
 - [ ] Integración electrónica.
