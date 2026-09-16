@@ -28,11 +28,12 @@ Como resultado, la estructura principal, incluidos los tensores de las correas, 
 
 Esta baja diversidad de componentes busca:
 
-Simplificar la fabricación.
-Reducir la cantidad de piezas que deben validarse.
-Facilitar la identificación y el almacenamiento de repuestos.
-Simplificar el armado y el mantenimiento.
-Permitir que las mejoras se apliquen de manera uniforme a las tres torres.
+- Simplificar la fabricación.
+- Reducir la cantidad de piezas que deben validarse.
+- Facilitar la identificación y el almacenamiento de repuestos.
+- Simplificar el armado y el mantenimiento.
+- Permitir que las mejoras se apliquen de manera uniforme a las tres torres.
+
 Sin embargo, la elección no fue solamente técnica. Desde que conocí las impresoras delta, siempre me fascinaron sus movimientos fluidos e hipnóticos. Esa combinación entre repetición mecánica, velocidad y movimiento terminó convirtiéndose en una parte central de Mobius Creator.
 
 <img width="3300" height="2550" alt="Despiece base" src="https://github.com/user-attachments/assets/abb470a2-2a86-47c7-89b4-1313ba386a0f" />
@@ -40,7 +41,6 @@ Sin embargo, la elección no fue solamente técnica. Desde que conocí las impre
 <img width="2048" height="1536" alt="Carro" src="https://github.com/user-attachments/assets/3b429b73-4fd4-45d2-b7f4-8f37e9632786" />
 
 ## Objetivos del proyecto
-
 
 El proyecto prioriza:
 
@@ -65,6 +65,7 @@ Las siguientes características representan el estado y los objetivos actuales d
 - **Computadora de control prevista:** BTT Pi.
 - **Extrusor previsto:** Sherpa Mini V3.
 - **Rótulas previstas:** IGUS KCLM-06-EK.
+- **Varillas previstas:** Fibra de carbono de 8 x 6 mm
 - **Hotend experimental:** Disipador Creality K1, Barrel de titanio, Bloque Volcano y Boquilla CHT.
 
 Las prestaciones de velocidad, aceleración, caudal, precisión y repetibilidad serán publicadas cuando puedan ser verificadas mediante ensayos reproducibles.
