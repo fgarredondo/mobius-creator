@@ -65,7 +65,9 @@ Las siguientes características representan el estado y los objetivos actuales d
 - **Computadora de control prevista:** BTT Pi.
 - **Extrusor previsto:** Sherpa Mini V3.
 - **Rótulas previstas:** IGUS KCLM-06-EK.
-- **Brazos previstos:** Fibra de carbono de 8 x 6 mm
+- **Brazos previstos:** Fibra de carbono de 8 x 6 mm.
+- **EndStop previstos:** Opticos.
+- **Auto Nivelación:** Utilizando accesorio desmontable en la boquilla (tipo Biqu o Flsun).
 - **Hotend experimental:** Disipador Creality K1, Barrel de titanio, Bloque Volcano y Boquilla CHT.
 - **Efector experimental:** Nucleo impreso en 3D reforzado con placas de FR4 (tipo sandwitch). 
 
