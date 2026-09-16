@@ -67,6 +67,7 @@ Las siguientes características representan el estado y los objetivos actuales d
 - **Rótulas previstas:** IGUS KCLM-06-EK.
 - **Varillas previstas:** Fibra de carbono de 8 x 6 mm
 - **Hotend experimental:** Disipador Creality K1, Barrel de titanio, Bloque Volcano y Boquilla CHT.
+- **Efector experimental:** Nucleo impreso en 3D reforzado con placas de FR4 (tipo sandwitch). 
 
 Las prestaciones de velocidad, aceleración, caudal, precisión y repetibilidad serán publicadas cuando puedan ser verificadas mediante ensayos reproducibles.
 
