@@ -179,7 +179,7 @@ Las licencias definitivas serán informadas antes de la publicación de la prime
 
 El nombre, el logotipo y los demás elementos identificatorios del proyecto no estarán incluidos automáticamente en las licencias abiertas que puedan aplicarse a los archivos de diseño, el software o la documentación.
 
-La autorización para utilizar los diseños no implicará una autorización para comercializar productos utilizando la marca Möbius Creator.
+La autorización para utilizar los diseños no implicará una autorización para comercializar productos utilizando la marca Mobius Creator.
 
 ## Advertencia
 
