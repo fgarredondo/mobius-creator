@@ -65,7 +65,7 @@ Las siguientes características representan el estado y los objetivos actuales d
 - **Computadora de control prevista:** BTT Pi.
 - **Extrusor previsto:** Sherpa Mini V3.
 - **Rótulas previstas:** IGUS KCLM-06-EK.
-- **Varillas previstas:** Fibra de carbono de 8 x 6 mm
+- **Brazos previstos:** Fibra de carbono de 8 x 6 mm
 - **Hotend experimental:** Disipador Creality K1, Barrel de titanio, Bloque Volcano y Boquilla CHT.
 - **Efector experimental:** Nucleo impreso en 3D reforzado con placas de FR4 (tipo sandwitch). 
 
@@ -108,8 +108,9 @@ La configuración preliminar utiliza:
 - Barrel de titanio.
 - Bloque calefactor tipo Volcano.
 - Boquilla CHT.
+- Nucleo impreso en 3D reforzado con placas de FR4 (tipo sandwitch). 
 
-Esta combinación busca mantener un conjunto compacto y de bajo peso, facilitar el mantenimiento y conservar un caudal de material adecuado para impresiones de gran tamaño y velocidad.
+Esta combinación busca mantener un conjunto compacto y de bajo peso, facilitar el mantenimiento y conservar un caudal de material adecuado para impresiones de gran tamaño y velocidad. El diseño se realizara priorizando el fácil acceso y cambio de sus componentes.
 
 La configuración podrá cambiar como resultado de las pruebas mecánicas, térmicas y de extrusión.
 
