@@ -35,8 +35,12 @@ Simplificar el armado y el mantenimiento.
 Permitir que las mejoras se apliquen de manera uniforme a las tres torres.
 Sin embargo, la elección no fue solamente técnica. Desde que conocí las impresoras delta, siempre me fascinaron sus movimientos fluidos e hipnóticos. Esa combinación entre repetición mecánica, velocidad y movimiento terminó convirtiéndose en una parte central de Mobius Creator.
 
+<img width="3300" height="2550" alt="Despiece base" src="https://github.com/user-attachments/assets/abb470a2-2a86-47c7-89b4-1313ba386a0f" />
+<img width="2048" height="1536" alt="Tensor correa" src="https://github.com/user-attachments/assets/59e2f0c5-1e4c-4e42-9827-b95167aa4b26" />
+<img width="2048" height="1536" alt="Carro" src="https://github.com/user-attachments/assets/3b429b73-4fd4-45d2-b7f4-8f37e9632786" />
 
 ## Objetivos del proyecto
+
 
 El proyecto prioriza:
 
@@ -190,9 +194,6 @@ Antes de fabricar o modificar cualquier componente:
 
 ## Imágenes del desarrollo
 
-### Carro y recorrido de la correa
-
-![Carro del lado de la correa](https://github.com/user-attachments/assets/a7359908-510b-41f0-9e3b-0b848627c15a)
 
 ### Soporte superior de la torre
 
