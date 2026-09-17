@@ -1,225 +1,217 @@
 # Mobius Creator
 
-**Impresora 3D delta reparable, modificable y adaptada a componentes disponibles en Argentina.**
+[Versión en español](README_ES.md)
 
-> **Estado actual:** desarrollo y prototipado activo.  
-> Todavía no existe una versión liberada para fabricación.
+**A repairable and modifiable delta 3D printer adapted to components available in Argentina.**
 
-![Estructura principal de Mobius Creator](https://github.com/user-attachments/assets/8bc3c71f-5907-4190-829e-2219b956a86d)
+> **Current status:** active development and prototyping.
+> No version has yet been released for fabrication.
 
-## Descripción
+![Mobius Creator main structure](https://github.com/user-attachments/assets/8bc3c71f-5907-4190-829e-2219b956a86d)
 
-Mobius Creator es un proyecto de impresora 3D delta de gran formato, diseñado con énfasis en la reparabilidad, la disponibilidad de repuestos y la posibilidad de adaptación por parte de sus usuarios.
+## Description
 
-El objetivo es desarrollar una máquina con un volumen y una velocidad de impresión considerables, que pueda ser construida, mantenida, modificada y reparada utilizando componentes estándar y alternativas disponibles en el mercado argentino, siempre que resulte técnicamente posible.
+Mobius Creator is a large-format delta 3D printer project designed with an emphasis on repairability, spare-part availability, and user adaptability.
 
-La publicación abierta de los archivos de diseño está planificada una vez que exista una configuración suficientemente estable, documentada y validada.
+The goal is to develop a machine with considerable build volume and printing speed that can be built, maintained, modified, and repaired using standard components and alternatives available in the Argentine market whenever technically feasible.
 
+The open release of the design files is planned once a sufficiently stable, documented, and validated configuration is available.
 
-## ¿Por qué elegí una impresora delta?
+## Why did I choose a delta printer?
 
-La elección de la cinemática delta responde principalmente a la posibilidad de repetir un mismo mecanismo en las tres torres.
+The choice of delta kinematics is mainly based on the ability to repeat the same mechanism across all three towers. By using three identical mechanical assemblies, the number of different parts that need to be designed, manufactured, tested, and maintained is reduced. An improvement made to the mechanism of one tower can be applied directly to the other two.
 
-Al utilizar tres conjuntos mecánicos iguales, se reduce la cantidad de piezas diferentes que deben diseñarse, fabricarse, probarse y mantenerse. Una mejora realizada sobre el mecanismo de una torre puede aplicarse directamente a las otras dos.
+In the current configuration, each tower uses only three different models of 3D-printed parts. Their ends are integrated into the lower and upper structural bases.
 
-En la configuración actual, cada torre utiliza solamente tres modelos diferentes de piezas impresas en 3D. Sus extremos están integrados en las bases inferior y superior de la estructura.
+As a result, the main structure, including the belt tensioners, can be built from four models of 3D-printed parts and four CNC-cut aluminum plates.
 
-Como resultado, la estructura principal, incluidos los tensores de las correas, puede construirse a partir de cuatro modelos de piezas impresas en 3D y 4 chapas de aluminio cortadas mediante CNC.
+This low component diversity is intended to:
 
-Esta baja diversidad de componentes busca:
+- Simplify manufacturing.
+- Reduce the number of parts that need to be validated.
+- Make spare parts easier to identify and store.
+- Simplify assembly and maintenance.
+- Allow improvements to be applied consistently across all three towers.
 
-- Simplificar la fabricación.
-- Reducir la cantidad de piezas que deben validarse.
-- Facilitar la identificación y el almacenamiento de repuestos.
-- Simplificar el armado y el mantenimiento.
-- Permitir que las mejoras se apliquen de manera uniforme a las tres torres.
+However, the choice was not purely technical. Ever since I first encountered delta printers, I have been fascinated by their fluid, hypnotic movements. That combination of mechanical repetition, speed, and motion eventually became a central part of Mobius Creator.
+ 
+<img width="3300" height="2550" alt="Base assembly " src="https://github.com/user-attachments/assets/abb470a2-2a86-47c7-89b4-1313ba386a0f" />
+<img width="2048" height="1536" alt="Belt tensioner " src="https://github.com/user-attachments/assets/59e2f0c5-1e4c-4e42-9827-b95167aa4b26" />
+<img width="2048" height="1536" alt="Carriage" src="https://github.com/user-attachments/assets/3b429b73-4fd4-45d2-b7f4-8f37e9632786" />
 
-Sin embargo, la elección no fue solamente técnica. Desde que conocí las impresoras delta, siempre me fascinaron sus movimientos fluidos e hipnóticos. Esa combinación entre repetición mecánica, velocidad y movimiento terminó convirtiéndose en una parte central de Mobius Creator.
+## Project goals
 
-<img width="3300" height="2550" alt="Despiece base" src="https://github.com/user-attachments/assets/abb470a2-2a86-47c7-89b4-1313ba386a0f" />
-<img width="2048" height="1536" alt="Tensor correa" src="https://github.com/user-attachments/assets/59e2f0c5-1e4c-4e42-9827-b95167aa4b26" />
-<img width="2048" height="1536" alt="Carro" src="https://github.com/user-attachments/assets/3b429b73-4fd4-45d2-b7f4-8f37e9632786" />
+The project prioritizes:
 
-## Objetivos del proyecto
+- Repairability and ease of maintenance.
+- Local availability of spare parts.
+- Use of standard components.
+- Clear technical documentation.
+- Publication of editable design files.
+- Adaptability to different budgets and component availability.
+- Validation through prototypes and documented testing.
+- Identification of compatible alternatives for critical components.
 
-El proyecto prioriza:
+## Preliminary specifications
 
-- Reparabilidad y facilidad de mantenimiento.
-- Disponibilidad local de repuestos.
-- Uso de componentes estándar.
-- Documentación técnica clara.
-- Publicación de archivos de diseño modificables.
-- Adaptación a diferentes presupuestos y disponibilidades.
-- Validación mediante prototipos y ensayos documentados.
-- Identificación de alternativas compatibles para componentes críticos.
+The following characteristics represent the current state and goals of the development. They should not be considered final specifications.
 
-## Especificaciones preliminares
+- **Architecture:** Delta.
+- **Target print diameter:** 350 mm.
+- **Minimum target print height:** 350 mm.
+- **Planned firmware:** Klipper.
+- **Planned controller board for the first prototype:** BTT SKR Mini.
+- **Planned control computer:** BTT Pi.
+- **Planned extruder:** Sherpa Mini V3.
+- **Planned ball joints:** IGUS KCLM-06-EK.
+- **Planned arms:** 8 x 6 mm carbon-fiber tubes.
+- **Planned endstops:** Optical.
+- **Automatic bed leveling:** Using a removable nozzle-mounted accessory, similar to those used by BIQU or FLSUN.
+- **Experimental hotend:** Creality K1 heatsink, titanium heat break, Volcano heater block, and CHT nozzle.
+- **Experimental effector:** 3D-printed core reinforced with FR4 plates in a sandwich-type construction.
 
-Las siguientes características representan el estado y los objetivos actuales del desarrollo. No deben considerarse especificaciones definitivas.
+Speed, acceleration, flow rate, accuracy, and repeatability figures will be published once they can be verified through reproducible testing.
 
-- **Arquitectura:** Delta.
-- **Diámetro objetivo de impresión:** 350 mm.
-- **Altura mínima objetivo de impresión:** 350 mm.
-- **Firmware previsto:** Klipper.
-- **Controladora prevista para el primer prototipo:** BTT SKR Mini.
-- **Computadora de control prevista:** BTT Pi.
-- **Extrusor previsto:** Sherpa Mini V3.
-- **Rótulas previstas:** IGUS KCLM-06-EK.
-- **Brazos previstos:** Fibra de carbono de 8 x 6 mm.
-- **EndStop previstos:** Opticos.
-- **Auto Nivelación:** Utilizando accesorio desmontable en la boquilla (tipo Biqu o Flsun).
-- **Hotend experimental:** Disipador Creality K1, Barrel de titanio, Bloque Volcano y Boquilla CHT.
-- **Efector experimental:** Nucleo impreso en 3D reforzado con placas de FR4 (tipo sandwitch). 
+## Project status
 
-Las prestaciones de velocidad, aceleración, caudal, precisión y repetibilidad serán publicadas cuando puedan ser verificadas mediante ensayos reproducibles.
+Mobius Creator is currently in the development and prototyping phase. Files, dimensions, components, and mechanical solutions may change during this stage.
 
-## Estado del proyecto
+Versions prepared for fabrication will be explicitly identified and accompanied by the corresponding documentation.
 
-Mobius Creator se encuentra en fase de desarrollo y prototipado.
+### Current progress
 
-Los archivos, dimensiones, componentes y soluciones mecánicas pueden cambiar durante esta etapa. Las versiones preparadas para fabricación serán identificadas explícitamente y estarán acompañadas por su documentación correspondiente.
+- [x] Initial architecture defined.
+- [x] Main structure and towers designed.
+- [x] Belt tensioner designed and initially tested.
+- [x] Preliminary carriage developed to validate motion and linear guides.
+- [x] Preliminary electronics selected.
+- [ ] First prototype structure fabricated (in progress).
+- [ ] Effector designed and fabricated (in progress).
+- [ ] Carriage design fully validated.
+- [ ] Arms fabricated and measured.
+- [ ] Electronics integrated.
+- [ ] Initial Klipper configuration completed.
+- [ ] Motion validated.
+- [ ] Geometric calibration completed.
+- [ ] First print completed.
+- [ ] Repeatability and accuracy tests completed.
+- [ ] First documented version prepared for external builders.
 
-### Avances actuales
+## Effector development
 
-- [x] Definición inicial de la arquitectura.
-- [x] Diseño de la estructura principal y las torres.
-- [x] Diseño y prueba inicial del tensor de correas.
-- [x] Desarrollo de un carro preliminar para validar el movimiento y las guías.
-- [x] Selección preliminar de la electrónica.
-- [ ] Fabricación de la estructura del primer prototipo (en proceso).
-- [ ] Diseño y fabricación del efector (en proceso).
-- [ ] Validación definitiva del carro.
-- [ ] Fabricación y medición de los brazos.
-- [ ] Integración electrónica.
-- [ ] Configuración inicial de Klipper.
-- [ ] Validación de movimiento.
-- [ ] Calibración geométrica.
-- [ ] Primera impresión.
-- [ ] Ensayos de repetibilidad y precisión.
-- [ ] Primera versión documentada para construcción externa.
+The effector is currently in the design stage. The preliminary configuration uses:
 
-## Desarrollo del efector
+- IGUS KCLM-06-EK polymer ball joints.
+- Sherpa Mini V3 extruder.
+- Creality K1 heatsink.
+- Titanium heat break.
+- Volcano-style heater block.
+- CHT nozzle.
+- 3D-printed core reinforced with FR4 plates in a sandwich-type construction.
 
-El efector se encuentra actualmente en etapa de diseño.
+This combination is intended to keep the assembly compact and lightweight, simplify maintenance, and maintain an adequate material flow rate for large and fast prints.
 
-La configuración preliminar utiliza:
+The design will prioritize easy access to and replacement of its components. The configuration may change based on mechanical, thermal, and extrusion testing.
 
-- Rótulas plásticas IGUS KCLM-06-EK.
-- Extrusor Sherpa Mini V3.
-- Disipador Creality K1.
-- Barrel de titanio.
-- Bloque calefactor tipo Volcano.
-- Boquilla CHT.
-- Nucleo impreso en 3D reforzado con placas de FR4 (tipo sandwitch). 
+## Validation criteria
 
-Esta combinación busca mantener un conjunto compacto y de bajo peso, facilitar el mantenimiento y conservar un caudal de material adecuado para impresiones de gran tamaño y velocidad. El diseño se realizara priorizando el fácil acceso y cambio de sus componentes.
+Before publishing the first reproducible version, the project is expected to evaluate at least:
 
-La configuración podrá cambiar como resultado de las pruebas mecánicas, térmicas y de extrusión.
+- Positioning repeatability.
+- Tower geometry and perpendicularity.
+- Uniform carriage motion.
+- Belt-system stability.
+- Dimensional accuracy.
+- Vibrations and resonances.
+- Motor and electronics temperatures.
+- Operation during extended prints.
+- Ease of maintenance and component replacement.
 
-## Criterios de validación
+Results will be identified as measured, estimated, or pending validation.
 
-Antes de publicar una primera versión reproducible se prevé evaluar, como mínimo:
+## Roadmap
 
-- Repetibilidad del posicionamiento.
-- Geometría y perpendicularidad de las torres.
-- Uniformidad de movimiento de los carros.
-- Estabilidad del sistema de correas.
-- Precisión dimensional.
-- Vibraciones y resonancias.
-- Temperatura de motores y electrónica.
-- Funcionamiento durante impresiones prolongadas.
-- Facilidad de mantenimiento y sustitución de componentes.
+### Stage 1: Mechanical prototype
 
-Los resultados serán identificados como medidos, estimados o pendientes de validación.
+- Complete the effector.
+- Fabricate and measure the arms.
+- Validate the carriages, guides, and tensioners.
+- Verify the geometry of the structure.
 
-## Hoja de ruta
+### Stage 2: Integration
 
-### Etapa 1: prototipo mecánico
+- Install the electronics.
+- Prepare the wiring.
+- Configure Klipper.
+- Perform the first motion tests.
 
-- Completar el efector.
-- Fabricar y medir los brazos.
-- Validar carros, guías y tensores.
-- Verificar la geometría de la estructura.
+### Stage 3: Printing and testing
 
-### Etapa 2: integración
+- Complete the first print.
+- Fine-tune delta calibration.
+- Measure repeatability and accuracy.
+- Document failures and modifications.
+- Perform extended printing tests.
 
-- Instalar la electrónica.
-- Preparar el cableado.
-- Configurar Klipper.
-- Realizar las primeras pruebas de movimiento.
+### Stage 4: Reproducible release
 
-### Etapa 3: impresión y ensayos
+- Freeze an experimental configuration.
+- Publish the bill of materials.
+- Publish versioned fabrication files.
+- Prepare assembly instructions.
+- Document known issues and warnings.
+- Invite the first external builders.
 
-- Realizar la primera impresión.
-- Ajustar la calibración delta.
-- Medir repetibilidad y precisión.
-- Documentar fallas y modificaciones.
-- Realizar pruebas de impresión prolongadas.
+## License
 
-### Etapa 4: publicación reproducible
+The project is currently in the development and prototyping phase. The licenses that will apply to the mechanical designs, electronics, software, and documentation have not yet been defined.
 
-- Congelar una configuración experimental.
-- Publicar la lista de materiales.
-- Publicar archivos de fabricación identificados por versión.
-- Preparar instrucciones de montaje.
-- Incorporar problemas conocidos y advertencias.
-- Convocar a los primeros constructores externos.
+Unless expressly stated otherwise, publishing content in this repository does not grant permission to reproduce, modify, manufacture, distribute, or commercialize the published files or designs.
 
-## Licencia
+The final licenses will be announced before the first open and reproducible version of the project is released.
 
-El proyecto se encuentra actualmente en fase de desarrollo y prototipado.
+## Trademark
 
-Todavía no se han definido las licencias que se aplicarán a los diseños mecánicos, la electrónica, el software y la documentación.
+**Mobius Creator** is a registered trademark in Argentina.
 
-Salvo indicación expresa, la publicación de contenido en este repositorio no concede permiso para reproducir, modificar, fabricar, distribuir o comercializar los archivos o diseños publicados.
+The project name, logo, and other identifying elements will not automatically be included in any open licenses that may apply to the design files, software, or documentation.
 
-Las licencias definitivas serán informadas antes de la publicación de la primera versión abierta y reproducible del proyecto.
+Authorization to use the designs will not constitute authorization to market products under the Mobius Creator trademark.
 
-## Marca
+## Warning
 
-**Mobius Creator** es una marca registrada en la República Argentina.
+This project contains moving mechanical components, heated elements, electrical connections, and experimental systems that may present risks if manufactured, connected, or used incorrectly.
 
-El nombre, el logotipo y los demás elementos identificatorios del proyecto no estarán incluidos automáticamente en las licencias abiertas que puedan aplicarse a los archivos de diseño, el software o la documentación.
+Experimental versions must not be considered finished designs or validated for production.
 
-La autorización para utilizar los diseños no implicará una autorización para comercializar productos utilizando la marca Mobius Creator.
+Before manufacturing or modifying any component:
 
-## Advertencia
+1. Verify the file version.
+2. Review the available documentation.
+3. Check the known issues.
+4. Verify dimensions, materials, and compatibility.
+5. Do not leave the prototype operating unattended.
 
-Este proyecto contiene componentes mecánicos móviles, elementos calefaccionados, conexiones eléctricas y etapas experimentales que pueden presentar riesgos si se fabrican, conectan o utilizan incorrectamente.
+## Development images
 
-Las versiones experimentales no deben considerarse diseños terminados ni validados para producción.
+### Upper tower support
 
-Antes de fabricar o modificar cualquier componente:
+![Upper tower support](https://github.com/user-attachments/assets/ba235d99-059a-4ee0-8339-9d9bb1cc3e29)
 
-1. Verificá la versión del archivo.
-2. Consultá la documentación disponible.
-3. Revisá los problemas conocidos.
-4. Comprobá las dimensiones, los materiales y la compatibilidad.
-5. No dejes el prototipo funcionando sin supervisión.
+### Carriage detail
 
-## Imágenes del desarrollo
+![Carriage detail](https://github.com/user-attachments/assets/0ae5da21-a42a-4deb-bd17-aea6d9d68dd7)
 
+## Participation
 
-### Soporte superior de la torre
+The project is not yet at the public-build stage. However, feedback is welcome regarding:
 
-![Soporte superior de la torre](https://github.com/user-attachments/assets/ba235d99-059a-4ee0-8339-9d9bb1cc3e29)
+- Component availability in Argentina.
+- Experience with delta printers.
+- Alternative components.
+- Measurement and validation methods.
+- Repairability.
+- Technical documentation.
+- Potential mechanical or maintenance issues.
 
-### Detalle del carro
-
-![Detalle del carro](https://github.com/user-attachments/assets/0ae5da21-a42a-4deb-bd17-aea6d9d68dd7)
-
-## Participación
-
-El proyecto todavía no se encuentra en una etapa de construcción pública.
-
-Sin embargo, son bienvenidos los comentarios relacionados con:
-
-- Disponibilidad de componentes en Argentina.
-- Experiencias con impresoras delta.
-- Alternativas de componentes.
-- Métodos de medición y validación.
-- Reparabilidad.
-- Documentación técnica.
-- Posibles problemas mecánicos o de mantenimiento.
-
-Las instrucciones formales para contribuir serán publicadas cuando se libere la primera versión experimental reproducible.
+Formal contribution guidelines will be published when the first reproducible experimental version is released.
