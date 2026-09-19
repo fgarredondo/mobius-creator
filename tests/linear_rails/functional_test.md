@@ -7,4 +7,4 @@
 
 ## Mejoras posible detectadas durante las pruebas
 
-### Se esta analizando montar las guías directamente sobre los perfiles 2020 y utilizar 2 piezas en los extremos que las mantengan a presión en vez de utilizar los perfiles de sujeción que son muy difíciles de montar en las ranuras perfiles 2020. Además de facilitar el montaje se reduce la cantidad de piezas que hay que conseguir en el mercado y se reemplazaría por 2 piezas impresas. Se están analizando las implicancias de este cambio sobre las demás piezas
+#### Se esta analizando montar las guías directamente sobre los perfiles 2020 y utilizar 2 piezas en los extremos que las mantengan a presión en vez de utilizar los perfiles de sujeción que son muy difíciles de montar en las ranuras perfiles 2020. Además de facilitar el montaje se reduce la cantidad de piezas que hay que conseguir en el mercado y se reemplazaría por 2 piezas impresas. Se están analizando las implicancias de este cambio sobre las demás piezas
